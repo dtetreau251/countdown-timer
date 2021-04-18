@@ -180,7 +180,7 @@ p {
 }
 
 .display {
-    margin: 18% auto;
+    margin: 17% auto;
     font-size: 60px;
 }
 
@@ -201,7 +201,7 @@ form {
 }
 
 form > input {
-    height: 88%;
+    height: 92%;
     width: 100px;
     text-align: center;
 }
