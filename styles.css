@@ -205,3 +205,14 @@ form > input {
     width: 100px;
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    .display {
+        margin: 50% auto;
+        font-size: 40px;
+        padding: 0;
+    }
+    .display>p {
+        font-size: 20px;
+    }
+}
