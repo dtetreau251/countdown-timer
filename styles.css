@@ -11,6 +11,13 @@ body {
     text-align: center;
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -26,25 +33,38 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: .75rem;
 }
 
 .timer {
     font-family: inconsolata;
-    margin: 19% auto;
-    width: 300px;
+    margin: 0 auto;
+    width: 100%;
     color: white;
 }
 
+.display {
+    margin: 18% auto;
+    font-size: 40px;
+}
+
+.display > p {
+    font-size: 20px;
+}
+
 button {
-    margin: 5px;
-    padding: 5px;
+    padding: 1%;
+    text-align: center;
     background-color: #23a6d5;
     color: white;
     border-radius: 5px;
 }
 
 form {
-    margin: 20px 0;
     border-radius: 5px;
+}
+
+form > input {
+    height: 88%;
+    width: 100px;
 }
