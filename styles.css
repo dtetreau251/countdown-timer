@@ -141,7 +141,7 @@ body {
 }
 
 body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: grey;
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     text-align: center;
@@ -152,20 +152,6 @@ body {
     flex-wrap:wrap;
     flex-direction: row;
     justify-content: space-evenly;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
 }
 
 p {
@@ -191,19 +177,26 @@ p {
 button {
     padding: 1.5%;
     text-align: center;
-    background-color: #23a6d5;
+    background-color: #f7022a;
     color: white;
     border-radius: 5px;
 }
 
-form {
+#custom {
     border-radius: 5px;
+    color: white;
 }
 
-form > input {
+input {
+     background-color: #f7022a;
+     color: white;
+}
+
+#enterTime {
     height: 92%;
     width: 100px;
     text-align: center;
+    color: white;
 }
 
 @media screen and (max-width: 600px) {
