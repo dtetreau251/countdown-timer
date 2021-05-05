@@ -177,8 +177,8 @@ p {
 button {
     padding: 1.5%;
     text-align: center;
-    background-color: #f7022a;
-    color: white;
+    background-color: lightgray;
+    color: black;
     border-radius: 5px;
 }
 
@@ -188,8 +188,8 @@ button {
 }
 
 input {
-     background-color: #f7022a;
-     color: white;
+     background-color: lightgray;
+     color: black;
 }
 
 #enterTime {
